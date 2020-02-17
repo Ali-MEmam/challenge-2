@@ -1,0 +1,208 @@
+                    /* Start With ShortCuts and Some Edits in Sass */
+$mainColor : #000000b5;
+$font-page:'Poppins', sans-serif;
+$font-header:'Playball', cursive;
+
+body
+{
+        font-family: $font-page;
+        background-image: url(../photo/webbackground.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover
+}
+.full-web
+{
+
+}
+.layout
+{
+        background-image: url(../photo/layout.png);
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover
+}
+nav
+{
+    margin-top: 110px;
+    ul
+    {
+        font-weight: 600;
+        font-size: 15px;
+        color: #0c0b0c;
+        list-style:none;
+        padding:40px;
+        background-image:url(../photo/urlbackground.png);
+        background-size: cover;
+        background-position: center;
+        li
+        {
+             :hover{
+                text-decoration: none;
+                color:#c5e5e0;
+            };
+             display: inline-block;
+          a {
+            margin-right: 50px;
+            margin-left: 50px;
+            color: black;
+          }
+        }
+   
+    }
+}
+.brand
+{
+    margin-top: 80px;
+    h2
+    {
+    letter-spacing: 3px;
+    background-color:black;
+    color: #c3e3de;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 8px 15px;
+    }
+};
+/* brand name and Nav finish*/
+/* home Page Start */
+.HomePage{
+        background-color: white;
+        padding-bottom: 20px;
+    h2
+    {
+        display: inline-block;
+        font-size: 93px; /*60 mob*/
+        font-family: $font-header;
+        letter-spacing: 10px;
+        font-weight: 800;
+        span
+        {
+            color:#c3e3de;
+            border-bottom: 2px dotted black;
+        };
+    };
+    i{
+    font-size: 60px;
+    margin-left: 30px;
+    }
+}
+.Home-Page-Btn
+{
+    margin-top: 30px;
+    a:hover{
+        background-color:#c3e3de;
+        color: black;
+        text-decoration: none;
+        };
+    .Home-btn
+    {
+        background-color: black;
+        color: #ffffff;
+        padding: 15px 40px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    :first-child{
+        text-align: right
+    }
+    :last-child{
+        text-align: left;
+    }
+}
+.home-page-btn
+{
+    margin-top: 30px;
+    ul
+    {
+        list-style: none;
+        li
+        {
+            a
+                {
+                 color: white;
+                 text-decoration: none;
+                }
+            display: inline-block;
+            background-color: black;
+            padding: 15px 40px;
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+    }
+}
+.borders
+{
+    margin-top: 30px;
+    border-bottom: 2px dotted black;
+
+}
+.left-side {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        border-right: 2px dotted black;
+        padding: 30px;/*38px 5px 38px 80px;*/
+        font-size: 13px;
+}
+.Skills{
+     border-bottom: 2px dotted black;
+}
+.right-side
+{
+    p
+    {
+            span
+            {
+                a{
+                    color:black;
+                };
+                float:right;
+                font-size: 12px;
+                padding-top: 15px;
+            }
+        border-bottom: 2px dotted black;
+        text-align: left;
+        margin-top:30px;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    ul{
+        border-bottom: 2px dotted black;
+            list-style: none;
+        padding-inline-start:0px;
+        li{
+            display: inline-block;
+            width: 32%;
+            border-right: 2px dotted black;
+            font-size: 20px;
+            font-weight: 800;
+            padding-bottom:10px;
+
+        }
+    }   
+}
+footer
+{
+    p
+    {
+        display:inline-block;
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    div {
+        display: inline-block;
+    }
+    background-image: url(../photo/footer.png);
+    margin-top: 30px;
+    padding: 11px;
+}
+.copyright
+{
+    float: right;
+}
